@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="javascript-invitados.css">
+    <title>Lista de invitados</title>
+</head>
+<body>
+    
+    <div class="presentacion">
+        <h1>Agenda Semanal</h1>
+    </div>
+
+    <fieldset>
+        <legend>Lunes</legend>
+        <p id="dias">Dia 25</p>
+        <p>08:30 - Juani y Alex me dicen que se quieren unir a la fiesta.</p>
+        <input type="button" value="Consulta la lista" id="button1" onclick="button1()">
+    </fieldset>
+
+    <fieldset id="invitados">
+        <legend>Lista de invitados:</legend>
+        <p id="lista-invitados"></p>
+    </fieldset>
+
+    <fieldset>
+        <legend>Miercoles</legend>
+        <p id="dias">Dia 27</p>
+        <p>09:30 - Roberto me ha comentado que esta enfermo y se une Marta.</p>
+        <input type="button" value="Consulta la lista" id="button2" onclick="button2()">
+    </fieldset>
+
+    <fieldset>
+        <legend>Jueves</legend>
+        <p id="dias">Dia 28</p>
+        <p>10:30 - Se suma la gente de la fiesta de al lado.</p>
+        <input type="button" value="Consulta la lista" id="button3" onclick="button3()">
+    </fieldset>
+
+    <fieldset>
+        <legend>Sabado</legend>
+        <p id="dias">Dia 30</p>
+        <p>DIA DE LA FIESTA.</p>
+        <input type="button" value="Consulta la lista" id="button4" onclick="button4()">
+    </fieldset>
+
+    <input type="text" id="buscador" placeholder="Introduce aquí un nombre">
+    <input type="button" id="consulta" value="Buscador de invitados" onclick="buscador()">
+
+    <script src="javascript-invitados.js"></script>
+</body>
+</html>
